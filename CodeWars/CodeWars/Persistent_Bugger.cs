@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodeWars
+﻿namespace CodeWars
 {
     class Persistent_Bugger
     {
@@ -15,14 +11,14 @@ namespace CodeWars
         public static int Persistence(long n)
         {
             int i = 0;
-            while (n > 9l)
+            while (n > 9L)
             {
-                long mul = 1l;
+                long mul = 1L;
 
-                while (n > 0l)
+                while (n > 0L)
                 {
-                    mul *= n % 10l;
-                    n /= 10l;
+                    mul *= n % 10L;
+                    n /= 10L;
                 }
 
                 n = mul;
