@@ -16,7 +16,7 @@ namespace CodeWars
         //Please keep in mind that the test cases ensure that the number of people in the bus is
         //always >= 0. So the return integer can't be negative.
         //The second value in the first integer array is 0, since the bus is empty in the first bus stop.
-        public static int Number(List<int[]> peopleListInOut)
+        public int Number(List<int[]> peopleListInOut)
         {
             int AmountPeopleInBus = 0;
             foreach (var item in peopleListInOut)

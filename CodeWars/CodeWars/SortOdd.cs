@@ -6,7 +6,7 @@ namespace CodeWars
 {
     class SortOdd
     {
-        public  int[] SortArray(int[] array)
+        public int[] SortArray(int[] array)
         {
             for (int i = 0; i < array.Length; i++)
             {

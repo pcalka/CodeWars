@@ -13,7 +13,7 @@
         //Based on: http://oj.leetcode.com/problems/two-sum/
         //twoSum[1, 2, 3] 4 === (0, 2)
 
-        public  int[] FindIndex(int[] numbers, int target)
+        public int[] FindIndex(int[] numbers, int target)
         {
             int[] FoundNumbers = new int[2];
 

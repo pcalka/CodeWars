@@ -8,7 +8,7 @@
         //For example:
         //persistence(39) == 3  because 3*9 = 27, 2*7 = 14, 1*4=4
         //and 4 has only one digit
-        public static int Persistence(long n)
+        public int Persistence(long n)
         {
             int i = 0;
             while (n > 9L)
